@@ -1,0 +1,386 @@
+//let x;
+//x = 123;
+
+//console.log(x);
+
+//let age = 25;
+//let price = 10.99;
+//let gpa = 2.75
+//console.log(`your age is ${age} years old`);
+//console.log(`The price is $${price}`);
+//console.log(`The average GPA is ${gpa}`);
+
+//let firstName = "T"
+//let lastname = "KAIZEN"
+//let hobbies = "Gaming"
+//let games = "valorant"
+
+//console.log(typeof firstName);
+//console.log(`My name is ${firstName}`);
+//console.log(`My hobby is ${hobbies}`);
+//console.log(`Favorite games is ${games}`);
+
+//let online = true;
+//let games = false;
+//let party = true;
+//console.log(`bro is online = ${online}`);
+//console.log(`Should i play games ${games}`);
+//console.log(`Is there a party ${party}`);
+
+//let fullname = "TKAIZEN";
+//let age = 20;
+//let Student = true;
+
+//document.getElementById("p1").textContent =`My name is = ${fullname}`
+//document.getElementById("p2").textContent = `My age is = ${age} years old`
+//document.getElementById("p3").textContent = `Enrolled:${Student}`
+
+
+//let students = 30;
+
+//students = students + 1;
+//students =  students * 2;
+//students =  students / 2;
+//students = students ** 2;
+//students = students % 2
+
+//students += 1; for not having multiple declaration
+//students -= 1;
+//students /= 1;
+//students *= 1;
+//students **= 1;
+
+//students++; for increment
+//students--;
+
+//console.log(students);
+
+//OPERATOR PRECEDENCE
+
+/*let result = 1 + 2 * 3 + 4 ** 2;
+let result = 12 % 5 + 8 / 2;
+
+console.log(result)
+*/
+
+//let username;
+
+
+
+//console.log(username)
+
+/*let greeting = document.getElementById("h1")
+let username;
+username = window.prompt(`What's your username`)
+document.getElementById(`mysubmit`).onclick = function(){
+    username = document.getElementById("myText").value;
+    //greeting.textContent = `Hello ${username}`
+    //greeting.style.color = "greet"
+}
+*/
+
+//let price = window.prompt("whats the price?");
+
+//price++;
+
+//document.getElementById("p1").textContent = price;
+
+
+//NOTHING
+
+
+/*let num = 0;
+
+document.getElementById("submitBtn").onclick = function(){
+
+     num++; 
+     
+    document.getElementById("p1").textContent = num
+    
+
+}
+document.getElementById("clearBtn").onclick = function(){
+
+    num = 0; 
+    
+   document.getElementById("p1").textContent = num
+   
+
+}
+document.getElementById("reduceBtn").onclick = function(){
+
+    num-- 
+    
+   document.getElementById("p1").textContent = num
+   
+}*/
+// NUMBER CONVERSION
+
+/*
+let x ;
+let y ;
+let z ;
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x,typeof x);
+console.log(y,typeof y);
+console.log(z,typeof z);
+*/
+
+//CONST
+/*
+    const PI = Math.PI;
+    let radius;
+    let circumference;
+
+    //radius = window.prompt(`Enter  the radius of a circle`);
+    radius = Number(radius);
+
+    
+
+
+    document.getElementById("submitBtn").onclick = function(){
+        radius = Number(radius);
+        radius = document.getElementById("myText").value;  
+        circumference = 2 * PI * radius;
+        document.getElementById("h3").textContent = circumference;
+
+    }
+
+    //console.log(circumference);*/
+
+
+/*const myBtn = document.getElementById("myBtn");
+const myLbl = document.getElementById("myLbl");
+
+const min = 1;
+const max = 6;
+let randomNUm;
+
+myBtn.onclick = function(){
+    randomNUm = Math.floor(Math.random() * max)+ min;
+        myLbl.textContent = randomNUm
+}*/
+
+//IF STATEMENT//
+
+    /*let time = 9;
+
+    if(time > 10){
+        console.log("good morning")
+    }
+    else{
+        console.log("good afternoon")
+    }
+*/
+
+    /*let age = 18;
+    let licence = true;
+
+    if(age >= 18){
+        console.log("you are old enough to drive");
+        
+        if(licence){
+           console.log("you have license");
+        }
+        else{
+            console.log("you must have a license")
+        }
+    }
+    else{
+        console.log("you must be atleast 18 to drive");
+    }*/
+    
+        /*let age = 10;
+
+        if(age >= 100){
+            console.log("you are too old")
+        }
+        else if(age < 17){
+            console.log("your age can't be below 17");
+        }
+        else if(age >= 18){
+            
+            console.log("you are old enough to enter this site");
+        }
+        else{
+        console.log("you must be atleast 18 to enter this site");
+
+            }*/
+
+    /*const myText = document.getElementById("myTxt");
+    const submitBtn = document.getElementById("submitBtn");
+    const result = document.getElementById("result");
+        let age;
+
+    submitBtn.onclick = function(){
+
+        age = myText.value;
+        age = Number(age);
+
+        if(age >= 100){
+                    
+            result.textContent = "you are too old"
+        }
+        else if(age < 17){
+            result.textContent = "your age can't be below 17";
+        }
+        else if(age >= 18){
+                        
+            result.textContent ="you are old enough to enter this site";
+        }
+        else{
+            result.textContent = "you must be atleast 18 to enter this site";
+        }
+}*/
+
+    //  CHECKBOX//
+
+    /*const checkbox = document.getElementById("checkbox");
+    const visa = document.getElementById("visa");
+    const master = document.getElementById("master");
+    const gotyme = document.getElementById("gotyme");
+    const submit = document.getElementById("submit");
+    const subresult = document.getElementById("subresult");
+    const payresult = document.getElementById("payresult");
+
+        submit.onclick = function(){
+            if(checkbox.checked){
+                            subresult.textContent = "you are subscribe"
+            }
+                else
+            subresult.textContent = "you are not subscribe"
+
+            if(visa.checked){
+                payresult.textContent = "you are paying with visa"
+            }
+            else if(master.checked){
+                payresult.textContent = "you are paying with master"
+            }
+            else if(gotyme.checked){
+                payresult.textContent = "you are paying with gotyme"
+            }
+            else
+            payresult.textContent = "you must pick a paying method"
+        }*/
+
+    // TERNARY OPERATOR//
+
+    /*let age = 18;
+    let message = age >= 18 ? "you are an adult":"you are a minor";
+    console.log(message)*/
+
+    /*let time = 7;
+    let greeting = time > 12 ? "good morning":"good afternoon"
+    console.log(greeting)*/
+
+    /*let student = true;
+    let message = student ? "you are a student":"you are not a student"
+        console.log(message)*/
+
+    /*let purchaseAmount = 125;
+    let discount = purchaseAmount >= 100 ? 10 : 0;
+    console.log(`your total amount $${purchaseAmount - purchaseAmount * (discount/100)}`);
+    */
+
+    //SWITCH//
+
+    /*let day = 1;
+
+    switch(day){
+        case 1:
+            console.log("It is monday");
+            break;
+    
+        case 2:
+            console.log("It is tuesday");
+            break;
+    
+        case 3:
+            console.log("It is wednesday");
+            break;
+    
+        case 4:
+            console.log("It is thursday");
+            break;
+    
+        case 5:
+            console.log("It is friday");
+            break;
+    
+        case 6:
+            console.log("It is saturday");
+            break;
+    
+        case 7:
+            console.log("It is sunday");
+            break;
+
+        default:
+            console.log(`${day} is not a day`)
+    }*/
+
+    /*let testScore = 87;
+    let letterGrade;
+
+    switch(true){
+        case testScore >= 90:
+            letterGrade = "A"
+            break;
+
+        case testScore >= 80:
+             letterGrade = "B";
+             break;
+
+        case testScore >= 70:
+            letterGrade = "C";
+            break;
+
+        case testScore >= 60:
+            letterGrade = "D"; 
+            break;
+
+        default:
+            letterGrade = "F"
+
+    }
+    console.log(testScore);
+    console.log(letterGrade);*/
+
+    //STRING METHOD//
+
+   // let userName = "tKaizen"
+
+   
+    //console.log( userName.charAt(0));
+
+    /*userName.indexOf(2);
+    console.log(userName.indexOf("z"));
+    console.log(userName.length);*/
+
+   // userName = userName.repeat();
+
+   /*let result = userName.startsWith("t")
+    console.log(result);
+
+    if(result){
+        console.log(`your usernaem starts with ${userName}`);
+    }
+    else{
+        console.log("your username cant starts with k")
+    }*/
+        /*let result = userName.endsWith("n")
+        console.log(result);
+    
+        if(result){
+            console.log(`your usernaem ends with ${userName}`);
+        }
+        else{
+            console.log("your username cant ends with k")
+        }
+*/
+// LEARN FROM 30/01/25
+    
