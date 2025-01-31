@@ -286,7 +286,7 @@ myBtn.onclick = function(){
     console.log(`your total amount $${purchaseAmount - purchaseAmount * (discount/100)}`);
     */
 
-    //SWITCH//
+    //--------------SWITCH---------------//
 
     /*let day = 1;
 
@@ -350,7 +350,7 @@ myBtn.onclick = function(){
     console.log(testScore);
     console.log(letterGrade);*/
 
-    //STRING METHOD//
+    //------------STRING METHOD--------------//
 
    // let userName = "tKaizen"
 
@@ -384,3 +384,128 @@ myBtn.onclick = function(){
 */
 // LEARN FROM 30/01/25
     
+    //-------------STRING METHOD----------//     
+
+/*let phoneNumber ="123-456-7890";
+
+phoneNumber = phoneNumber.replaceAll("-"," ");
+phoneNumber = phoneNumber.padStart(15, "0");
+
+console.log(phoneNumber);
+console.log(phoneNumber);*/
+
+//--------- STIRNG SLICING-------//
+
+//const fullname = "TKaizenzero "
+
+//let firstName = fullname.slice(0, 2);
+//let lastName = fullname.slice(4, 8);    
+
+//let firstchar = fullname.slice(3, 4);// for last element use negative number
+//let firstName = fullname.slice(0, fullname.indexOf(" "))
+//let lastName = fullname.slice(fullname.indexOf(" ")+ 1)
+//console.log(lastName);
+//onsole.log(firstName);
+//console.log(lastName);
+
+/*const email = "Tkaizen0@gmail.com";
+
+let userName = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@"));
+console.log(userName);
+console.log(extension);*/
+
+//METHOD CHAINING//
+
+
+//let username = window.prompt("ENTER YOUR USERNAME");
+
+
+// -------NO METHOD CHAINING-------
+
+
+
+ /*username = username.trim();
+ let letter = username.charAt(0);
+ letter = letter.toUpperCase();
+
+ let extrachars = username.slice(1);
+ extrachars = extrachars.toLowerCase();
+ username = letter + extrachars;
+ 
+ console.log(username);*/
+
+// ------ METHOD CHAINING
+
+/*username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toUpperCase()
+
+console.log(username)*/
+
+// LOGICAL OPERATOR
+
+/*const temp = 20;
+
+if(temp <= 0 || temp > 30){
+    console.log("The weather is BAD");
+}
+else{
+    console.log("The weather is GOOD");
+}*/
+
+/*const isSunny = true;
+
+    if(!isSunny){
+        console.log("It is Sunny");
+    }
+    else{
+        console.log("It is Raining")
+    }*/
+
+
+//----------- OPERATORS        
+                    // = assigment operator
+                    // == comparison operator
+                    // === strict equality operator(compares value and data types)
+                    // != inequality operator
+                    // !== strict inequality operator
+
+
+
+/*const PI = 3.14;
+
+    if(PI !== "3.14" ){
+        console.log("That is not PI");
+    }
+    else{
+        console.log("That is PI");
+    }*/
+
+
+        //--------- WHILE LOOP
+
+    /*let username;
+    
+    do{
+     username= window.prompt("Enter your Username");
+        } while(username === "" || username === null){
+      
+         console.log(`hello ${username}`);
+        }*/
+
+         /*let loggedIn = false;
+         let username;
+         let password;
+
+         while(!loggedIn){
+                username = window.prompt("enter your username");
+                password = window.prompt("Enter your password");
+
+                if(username ==="myUserName" && password === "myPassword"){
+                    loggedIn = true;
+                    console.log("you are logged In")
+                }
+                else {
+                    console.log("invalid credentials")
+                }
+         }*/ 
+// learned on 31/01/25
